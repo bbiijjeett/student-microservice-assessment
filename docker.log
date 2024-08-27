@@ -1,0 +1,274 @@
+2024-08-27 14:20:49 student-microservice-1  | 
+2024-08-27 14:20:49 student-microservice-1  |   .   ____          _            __ _ _
+2024-08-27 14:20:49 student-microservice-1  |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-08-27 14:20:49 student-microservice-1  | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-08-27 14:20:49 student-microservice-1  |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-08-27 14:20:49 student-microservice-1  |   '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-08-27 14:20:49 student-microservice-1  |  =========|_|==============|___/=/_/_/_/
+2024-08-27 14:20:49 student-microservice-1  | 
+2024-08-27 14:20:49 student-microservice-1  |  :: Spring Boot ::       (v3.4.0-SNAPSHOT)
+2024-08-27 14:20:49 student-microservice-1  | 
+2024-08-27 14:20:49 mysqldb-1               | 2024-08-27T08:50:49.119385Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-08-27 14:20:49 mysqldb-1               | 2024-08-27T08:50:49.119449Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-08-27 14:20:49 mysqldb-1               | 2024-08-27T08:50:49.145030Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2024-08-27 14:20:49 mysqldb-1               | 2024-08-27T08:50:49.244627Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-08-27 14:20:49 mysqldb-1               | 2024-08-27T08:50:49.244711Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.4.2'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2024-08-27 14:20:49 student-microservice-1  | 2024-08-27T08:50:49.321Z  INFO 1 --- [student-microservice] [           main] c.e.s.StudentMicroserviceApplication     : Starting StudentMicroserviceApplication v0.0.1-SNAPSHOT using Java 17-ea with PID 1 (/app.jar started by root in /)
+2024-08-27 14:20:49 student-microservice-1  | 2024-08-27T08:50:49.327Z  INFO 1 --- [student-microservice] [           main] c.e.s.StudentMicroserviceApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-08-27 14:20:50 student-microservice-1  | 2024-08-27T08:50:50.350Z  INFO 1 --- [student-microservice] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-27 14:20:50 student-microservice-1  | 2024-08-27T08:50:50.454Z  INFO 1 --- [student-microservice] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2024-08-27 14:20:51 student-microservice-1  | 2024-08-27T08:50:51.108Z  INFO 1 --- [student-microservice] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9010 (http)
+2024-08-27 14:20:51 student-microservice-1  | 2024-08-27T08:50:51.136Z  INFO 1 --- [student-microservice] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-27 14:20:51 student-microservice-1  | 2024-08-27T08:50:51.137Z  INFO 1 --- [student-microservice] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-27 14:20:51 student-microservice-1  | 2024-08-27T08:50:51.199Z  INFO 1 --- [student-microservice] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-27 14:20:51 student-microservice-1  | 2024-08-27T08:50:51.204Z  INFO 1 --- [student-microservice] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1797 ms
+2024-08-27 14:20:51 student-microservice-1  | 2024-08-27T08:50:51.421Z  INFO 1 --- [student-microservice] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-27 14:20:51 student-microservice-1  | 2024-08-27T08:50:51.510Z  INFO 1 --- [student-microservice] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.0.Final
+2024-08-27 14:20:51 student-microservice-1  | 2024-08-27T08:50:51.606Z  INFO 1 --- [student-microservice] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-27 14:20:52 student-microservice-1  | 2024-08-27T08:50:52.050Z  INFO 1 --- [student-microservice] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-27 14:20:52 student-microservice-1  | 2024-08-27T08:50:52.106Z  INFO 1 --- [student-microservice] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-27 14:20:53 student-microservice-1  | 2024-08-27T08:50:53.236Z  WARN 1 --- [student-microservice] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08S01
+2024-08-27 14:20:53 student-microservice-1  | 2024-08-27T08:50:53.236Z ERROR 1 --- [student-microservice] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Communications link failure
+2024-08-27 14:20:53 student-microservice-1  | 
+2024-08-27 14:20:53 student-microservice-1  | The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-08-27 14:20:53 student-microservice-1  | 2024-08-27T08:50:53.237Z  WARN 1 --- [student-microservice] [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2024-08-27 14:20:53 student-microservice-1  | 
+2024-08-27 14:20:53 student-microservice-1  | org.hibernate.exception.JDBCConnectionException: unable to obtain isolated JDBC connection [Communications link failure
+2024-08-27 14:20:53 student-microservice-1  | 
+2024-08-27 14:20:53 student-microservice-1  | The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] [n/a]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:321) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:130) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:82) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:226) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:194) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1849) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1798) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:296) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.0-SNAPSHOT.jar!/:3.4.0-SNAPSHOT]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-3.4.0-SNAPSHOT.jar!/:3.4.0-SNAPSHOT]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:443) ~[spring-boot-3.4.0-SNAPSHOT.jar!/:3.4.0-SNAPSHOT]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.boot.SpringApplication.run(SpringApplication.java:319) ~[spring-boot-3.4.0-SNAPSHOT.jar!/:3.4.0-SNAPSHOT]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-3.4.0-SNAPSHOT.jar!/:3.4.0-SNAPSHOT]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.4.0-SNAPSHOT.jar!/:3.4.0-SNAPSHOT]
+2024-08-27 14:20:53 student-microservice-1  |   at com.example.student.StudentMicroserviceApplication.main(StudentMicroserviceApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+2024-08-27 14:20:53 student-microservice-1  |   at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+2024-08-27 14:20:53 student-microservice-1  |   at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+2024-08-27 14:20:53 student-microservice-1  |   at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+2024-08-27 14:20:53 student-microservice-1  |   at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[app.jar:0.0.1-SNAPSHOT]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[app.jar:0.0.1-SNAPSHOT]
+2024-08-27 14:20:53 student-microservice-1  |   at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[app.jar:0.0.1-SNAPSHOT]
+2024-08-27 14:20:53 student-microservice-1  | Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+2024-08-27 14:20:53 student-microservice-1  | 
+2024-08-27 14:20:53 student-microservice-1  | The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:845) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar!/:na]
+2024-08-27 14:20:53 student-microservice-1  |   at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar!/:na]
+2024-08-27 14:20:53 student-microservice-1  |   at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar!/:na]
+2024-08-27 14:20:53 student-microservice-1  |   at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar!/:na]
+2024-08-27 14:20:53 student-microservice-1  |   at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar!/:na]
+2024-08-27 14:20:53 student-microservice-1  |   at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar!/:na]
+2024-08-27 14:20:53 student-microservice-1  |   at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar!/:na]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:126) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:468) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:53 student-microservice-1  |   ... 42 common frames omitted
+2024-08-27 14:20:53 student-microservice-1  | Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+2024-08-27 14:20:53 student-microservice-1  | 
+2024-08-27 14:20:53 student-microservice-1  | The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-08-27 14:20:53 student-microservice-1  |   at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+2024-08-27 14:20:53 student-microservice-1  |   at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78) ~[na:na]
+2024-08-27 14:20:53 student-microservice-1  |   at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+2024-08-27 14:20:53 student-microservice-1  |   at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+2024-08-27 14:20:53 student-microservice-1  |   at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.NativeSession.connect(NativeSession.java:140) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:969) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   ... 55 common frames omitted
+2024-08-27 14:20:53 student-microservice-1  | Caused by: java.net.ConnectException: Connection refused
+2024-08-27 14:20:53 student-microservice-1  |   at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+2024-08-27 14:20:53 student-microservice-1  |   at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:669) ~[na:na]
+2024-08-27 14:20:53 student-microservice-1  |   at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+2024-08-27 14:20:53 student-microservice-1  |   at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+2024-08-27 14:20:53 student-microservice-1  |   at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:331) ~[na:na]
+2024-08-27 14:20:53 student-microservice-1  |   at java.base/java.net.Socket.connect(Socket.java:630) ~[na:na]
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:53 student-microservice-1  |   ... 58 common frames omitted
+2024-08-27 14:20:53 student-microservice-1  | 
+2024-08-27 14:20:53 student-microservice-1  | 2024-08-27T08:50:53.279Z  WARN 1 --- [student-microservice] [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-27 14:20:53 student-microservice-1  | 2024-08-27T08:50:53.280Z  WARN 1 --- [student-microservice] [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-27 14:20:53 student-microservice-1  | 2024-08-27T08:50:53.312Z  INFO 1 --- [student-microservice] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2024-08-27 14:20:53 student-microservice-1  |   Database JDBC URL [Connecting through datasourcenull]
+2024-08-27 14:20:53 student-microservice-1  |   Database driver: undefined/unknown
+2024-08-27 14:20:53 student-microservice-1  |   Database version: 8.0
+2024-08-27 14:20:53 student-microservice-1  |   Autocommit mode: undefined/unknown
+2024-08-27 14:20:53 student-microservice-1  |   Isolation level: undefined/unknown
+2024-08-27 14:20:53 student-microservice-1  |   Minimum pool size: undefined/unknown
+2024-08-27 14:20:53 student-microservice-1  |   Maximum pool size: undefined/unknown
+2024-08-27 14:20:54 student-microservice-1  | 2024-08-27T08:50:54.445Z  INFO 1 --- [student-microservice] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-27 14:20:54 student-microservice-1  | 2024-08-27T08:50:54.476Z  INFO 1 --- [student-microservice] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-27 14:20:55 student-microservice-1  | 2024-08-27T08:50:55.484Z  WARN 1 --- [student-microservice] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08S01
+2024-08-27 14:20:55 student-microservice-1  | 2024-08-27T08:50:55.485Z ERROR 1 --- [student-microservice] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Communications link failure
+2024-08-27 14:20:55 student-microservice-1  | 
+2024-08-27 14:20:55 student-microservice-1  | The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-08-27 14:20:55 student-microservice-1  | 2024-08-27T08:50:55.493Z ERROR 1 --- [student-microservice] [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Communications link failure
+2024-08-27 14:20:55 student-microservice-1  | 
+2024-08-27 14:20:55 student-microservice-1  | The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] [n/a]
+2024-08-27 14:20:55 student-microservice-1  | 2024-08-27T08:50:55.493Z  WARN 1 --- [student-microservice] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Communications link failure
+2024-08-27 14:20:55 student-microservice-1  | 
+2024-08-27 14:20:55 student-microservice-1  | The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] [n/a]
+2024-08-27 14:20:55 student-microservice-1  | 2024-08-27T08:50:55.496Z  INFO 1 --- [student-microservice] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-27 14:20:55 student-microservice-1  | 2024-08-27T08:50:55.541Z  INFO 1 --- [student-microservice] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2024-08-27 14:20:55 student-microservice-1  | 
+2024-08-27 14:20:55 student-microservice-1  | Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-27 14:20:55 student-microservice-1  | 2024-08-27T08:50:55.582Z ERROR 1 --- [student-microservice] [           main] o.s.boot.SpringApplication               : Application run failed
+2024-08-27 14:20:55 student-microservice-1  | 
+2024-08-27 14:20:55 student-microservice-1  | org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Communications link failure
+2024-08-27 14:20:55 student-microservice-1  | 
+2024-08-27 14:20:55 student-microservice-1  | The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] [n/a]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:296) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.0-SNAPSHOT.jar!/:3.4.0-SNAPSHOT]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-3.4.0-SNAPSHOT.jar!/:3.4.0-SNAPSHOT]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:443) ~[spring-boot-3.4.0-SNAPSHOT.jar!/:3.4.0-SNAPSHOT]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.boot.SpringApplication.run(SpringApplication.java:319) ~[spring-boot-3.4.0-SNAPSHOT.jar!/:3.4.0-SNAPSHOT]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-3.4.0-SNAPSHOT.jar!/:3.4.0-SNAPSHOT]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.4.0-SNAPSHOT.jar!/:3.4.0-SNAPSHOT]
+2024-08-27 14:20:55 student-microservice-1  |   at com.example.student.StudentMicroserviceApplication.main(StudentMicroserviceApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[app.jar:0.0.1-SNAPSHOT]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[app.jar:0.0.1-SNAPSHOT]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[app.jar:0.0.1-SNAPSHOT]
+2024-08-27 14:20:55 student-microservice-1  | Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Communications link failure
+2024-08-27 14:20:55 student-microservice-1  | 
+2024-08-27 14:20:55 student-microservice-1  | The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] [n/a]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:431) ~[spring-orm-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1849) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1798) ~[spring-beans-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   ... 22 common frames omitted
+2024-08-27 14:20:55 student-microservice-1  | Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Communications link failure
+2024-08-27 14:20:55 student-microservice-1  | 
+2024-08-27 14:20:55 student-microservice-1  | The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] [n/a]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcDatabaseMetaData(ImprovedExtractionContextImpl.java:70) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl.processTableResultSet(InformationExtractorJdbcDatabaseMetaDataImpl.java:65) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.tool.schema.extract.internal.AbstractInformationExtractorImpl.getTables(AbstractInformationExtractorImpl.java:570) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.getTablesInformation(DatabaseInformationImpl.java:122) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:72) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/java.util.HashMap.forEach(HashMap.java:1425) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:323) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.0-M7.jar!/:6.2.0-M7]
+2024-08-27 14:20:55 student-microservice-1  |   ... 26 common frames omitted
+2024-08-27 14:20:55 student-microservice-1  | Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+2024-08-27 14:20:55 student-microservice-1  | 
+2024-08-27 14:20:55 student-microservice-1  | The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:845) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar!/:na]
+2024-08-27 14:20:55 student-microservice-1  |   at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar!/:na]
+2024-08-27 14:20:55 student-microservice-1  |   at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar!/:na]
+2024-08-27 14:20:55 student-microservice-1  |   at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar!/:na]
+2024-08-27 14:20:55 student-microservice-1  |   at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar!/:na]
+2024-08-27 14:20:55 student-microservice-1  |   at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar!/:na]
+2024-08-27 14:20:55 student-microservice-1  |   at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar!/:na]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:126) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:468) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.6.0.Final.jar!/:6.6.0.Final]
+2024-08-27 14:20:55 student-microservice-1  |   ... 47 common frames omitted
+2024-08-27 14:20:55 student-microservice-1  | Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+2024-08-27 14:20:55 student-microservice-1  | 
+2024-08-27 14:20:55 student-microservice-1  | The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.NativeSession.connect(NativeSession.java:140) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:969) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   ... 60 common frames omitted
+2024-08-27 14:20:55 student-microservice-1  | Caused by: java.net.ConnectException: Connection refused
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:669) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:331) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at java.base/java.net.Socket.connect(Socket.java:630) ~[na:na]
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53) ~[mysql-connector-j-9.0.0.jar!/:9.0.0]
+2024-08-27 14:20:55 student-microservice-1  |   ... 63 common frames omitted
+2024-08-27 14:20:55 student-microservice-1  | 
