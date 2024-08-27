@@ -1,0 +1,30 @@
+services:
+  mysqldb:
+    image: mysql:8
+    restart: always
+    #container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: studentdb
+    #ports:
+    #  - "3307:3306"
+    networks:
+      - mynetwork
+
+  student-microservice:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    #container_name: student-microservice
+    restart: always
+    ports:
+      - "9010:9010"
+    depends_on:
+      - mysqldb
+    #    condition: service_healthy
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    name: mynetwork
